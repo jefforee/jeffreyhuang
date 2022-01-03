@@ -134,7 +134,7 @@ section {
     background-position: 0 1em;
 }
 
-#nav_options:hover {
+.nav_options:hover {
     cursor: pointer;
 
     background-size: 100%;
@@ -326,6 +326,12 @@ button:active {
     max-height: 800px;
 }
 
+.picture:hover {
+    box-shadow: 12px 12px #628DB2;
+    transition: all 0.3s;
+    border-radius: 8px;
+}
+
 .picture {
     display: block;
 
@@ -333,6 +339,8 @@ button:active {
 
     border-radius: 8px;
     border: 1px solid #ffffff;  
+
+    transition: all 0.3s;
 }
 
 #work_details {
