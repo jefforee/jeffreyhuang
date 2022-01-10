@@ -15,3 +15,4 @@ window.addEventListener("scroll", function(event) {
         navOptions[i].setAttribute("style", "color: white");
     }
 })
+
