@@ -102,7 +102,7 @@ div {
     width: 100%;
     max-width: 1750px;
     margin: 0 auto;
-    padding-top: 8em;
+    padding-top: 9em;
     overflow: hidden;
 }
 
@@ -120,6 +120,12 @@ section {
     position: fixed;
 
     z-index: 1;
+
+    opacity: 1;
+	animation-name: fadeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
 }
 
 /* Navbar */
@@ -132,8 +138,13 @@ section {
     right: 2%;
 
     z-index: 1;
-}
 
+    opacity: 1;
+	animation-name: fadeInTop;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
 
 .nav_options {
     color:white;
@@ -159,6 +170,18 @@ section {
     background-repeat: no-repeat;  
 }
 
+@keyframes fadeInTop {
+	0% {
+		opacity: 0;
+        transform: translateY(-20px);
+
+	}
+	100% {
+		opacity: 1;
+        transform: translateX(0);
+	}
+}
+
 /* Intro */
 #intro-container {
     position: absolute;
@@ -170,6 +193,12 @@ section {
     padding: 32px;
 
     color: white;
+
+    opacity: 1;
+	animation-name: fadeInLeft;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
 }
 
 #intro-container h1 {
@@ -195,6 +224,17 @@ section {
     color: #628DB2;
 }
 
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+        transform: translateX(-30px);
+
+	}
+	100% {
+		opacity: 1;
+        transform: translateX(0);
+	}
+}
 
 /* Fonts */
 h1 {
@@ -291,6 +331,12 @@ button:active {
     align-items: center;
 
     max-height: 400px;
+
+    opacity: 1;
+	animation-name: fadeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
 }
 
 .sideway_text {
@@ -331,6 +377,16 @@ button:active {
 	animation-duration: 4s;
 	animation-fill-mode: both;
 	animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes vertical-move {
