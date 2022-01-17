@@ -104,6 +104,12 @@ div {
     margin: 0 auto;
     padding-top: 9em;
     overflow: hidden;
+
+    opacity: 1;
+	animation-name: fadeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
 }
 
 section {
