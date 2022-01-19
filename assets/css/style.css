@@ -607,7 +607,5 @@ ul {
     background: #dd4b39;
   }
   
-  ul li:nth-child(4) a:before {
-    background: linear-gradient(45deg, #F9D801, #F7D100, #F77800, #F85B00,#F40C1C, #D02359, #B03995, #934DCA, #8C46C1);
-  }
+
 
