@@ -169,12 +169,11 @@ section {
 
     transition: .3s linear, box-shadow .15s linear 0s;
     background-size: 0%;
-    background-position: 0 1em;
+    background-position: 0 0.75em;
 }
 
 .nav_options:hover {
     cursor: pointer;
-
     background-size: 100%;
     background-image: linear-gradient(to right, #628DB2, #71BFF8,#3AA16D); 
     background-repeat: no-repeat;  
