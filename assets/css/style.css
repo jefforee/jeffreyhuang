@@ -84,9 +84,9 @@ div {
     background-color: black;
 }
 
-/* #middle_page {
-    padding-bottom: 5em;
-} */
+#middle_page {
+    padding-bottom: 9em;
+}
 
 #end_page {
     box-sizing: border-box;
