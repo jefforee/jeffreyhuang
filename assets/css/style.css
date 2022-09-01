@@ -416,11 +416,10 @@ button:active {
 
 .waves_bottom {
     position: absolute;
-    top: 0px;
+    bottom: 0;
     width: 100%;
-    height: 15vh;
-    margin-top: -193px;
     max-height: 15vh;
+    margin-bottom: -7px;
     min-height: 10vh;
     transform: scaleX(-1);
 }
