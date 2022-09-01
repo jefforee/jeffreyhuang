@@ -420,8 +420,8 @@ button:active {
     width: 100%;
     height: 15vh;
     margin-top: -193px;
-    min-height: 150px;
-    max-height: 200px;
+    max-height: 15vh;
+    min-height: 10vh;
     transform: scaleX(-1);
 }
 
