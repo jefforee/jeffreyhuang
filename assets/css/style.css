@@ -99,7 +99,7 @@ div {
 }
 
 
-#work-container {
+.work-container {
     width: 100%;
     max-width: 1750px;
     margin: 0 auto;
@@ -467,14 +467,14 @@ button:active {
     margin-block-end: 0.83em;
 }
 
-#work_picture {
+.work_picture {
    /* position: relative; */
    top: 10px;
    margin-left: 110px;
    margin-right: 110px;
 }
 
-#work_picture_box {
+.work_picture_box {
     max-height: 800px;
 }
 
@@ -497,12 +497,12 @@ button:active {
     transition: all 0.3s;
 }
 
-#work_details {
+.work_details {
     margin-top: 30px;
     margin-left: 110px;
 }
 
-#work_details p, #work_details h5, #work_details h6 {
+.work_details p, .work_details h5, .work_details h6 {
     margin-block-start: 0.5em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -511,7 +511,7 @@ button:active {
     max-width: 900px;
 }
 
-#work_details p {
+.work_details p {
     margin-top: -15px;
     margin-right: 120px;
 }
