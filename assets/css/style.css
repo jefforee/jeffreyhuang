@@ -219,13 +219,13 @@ section {
     margin-bottom: 2%;
 }
 
-#IBM {
+#intern {
     transition: 1s;
     font-weight: bold;
     color: #002D9C;
 }
 
-#IBM:hover {
+#intern:hover {
     cursor: pointer;
     color: #628DB2;
 }
