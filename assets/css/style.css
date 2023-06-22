@@ -219,13 +219,13 @@ section {
     margin-bottom: 2%;
 }
 
-#intern {
+#job {
     transition: 1s;
     font-weight: bold;
     color: #002D9C;
 }
 
-#intern:hover {
+#job:hover {
     cursor: pointer;
     color: #628DB2;
 }
