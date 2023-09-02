@@ -141,7 +141,9 @@ section {
     flex-direction: row;
     position: fixed;
 
-    min-width: 500px;
+    min-width: 350px;
+    /* min-width: 500px; */
+
     right: 2%;
 
     z-index: 1;
